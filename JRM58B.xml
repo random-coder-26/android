@@ -84,21 +84,22 @@
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="refs/heads/jb-dev" /> <!-- c -->
   <!-- Required for compile by bluetooth/bluez -->
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" revision="refs/heads/jb-dev" /> <!-- c -->
-  <project path="external/bouncycastle" name="platform/external/bouncycastle" revision="c3ca927de0c0655e1f8d618d13f1de19b2b7975e" />
-  <project path="external/bsdiff" name="platform/external/bsdiff" revision="81872540236d9bb15cccf963d05b9de48baa5375" />
-  <project path="external/bzip2" name="platform/external/bzip2" revision="414a94a045a359ab76fa22feaee883180a9b2779" />
-  <project path="external/checkpolicy" name="platform/external/checkpolicy" />
-  <project path="external/chromium" name="platform/external/chromium" revision="8e8529d08429cac48a02b12b41b292bdd697ec53" />
+  <project path="external/bouncycastle" name="platform/external/bouncycastle" revision="e8ed366ff44ad9448d697cfc54f162f7f1c07617" /> <!-- c -->
+  <project path="external/bsdiff" name="platform/external/bsdiff" revision="81872540236d9bb15cccf963d05b9de48baa5375" /> <!-- c -->
+  <project path="external/bzip2" name="platform/external/bzip2" revision="414a94a045a359ab76fa22feaee883180a9b2779" /> <!-- c -->
+  <project path="external/checkpolicy" name="platform/external/checkpolicy" /> <!-- c -->
+  <project path="external/chromium" name="platform/external/chromium" revision="a7dee89fba4aaa5f0be152cfc7c7b9b5cff98d51" /> <!-- c -->
   <!-- Not in use until 2 May 2012 -->
-  <project path="external/chromium-trace" name="platform/external/chromium-trace" revision="13e4634df7a3e7537908508d53b52c9a31fa1c01" />
-  <project path="external/cibu-fonts" name="platform/external/cibu-fonts" revision="d0c81285d5bffb47831b130a4bb2c5913cdb090c" />
-  <project path="external/clang" name="platform/external/clang" revision="094004c9c6693abad38a37906ec4363a7ee9e0df" />
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" revision="ed00338b4b2f63a6e740be982ecbfa56257f1da6" />
-  <project path="external/dbus" name="platform/external/dbus" revision="537eaff5de9aace3348436166d4cde7adc1e488e" />
-  <project path="external/dexmaker" name="platform/external/dexmaker" />
-  <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="e4f0d1bd87c052c1b4af410599558de1e8875379" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" revision="f621afad94df46204c25fc2593a19d704d2637f5" />
-  <project path="external/doclava" name="platform/external/doclava" revision="6671ab7b94f8747e569f21f698ef4ed1ec772179" />
+  <project path="external/chromium-trace" name="platform/external/chromium-trace" revision="13e4634df7a3e7537908508d53b52c9a31fa1c01" /> <!-- c -->
+  <!-- Not in use until 23 April 2012 -->
+  <project path="external/cibu-fonts" name="platform/external/cibu-fonts" revision="e5943be86d0d448cd0778744e30f10bd1eb8a5b5" /> <!-- c -->
+  <project path="external/clang" name="platform/external/clang" revision="4c62b557e269a27515dfca1f754ae936c8fdb824" /> <!-- c -->
+  <project path="external/compiler-rt" name="platform/external/compiler-rt" revision="3fe913558354f76707e2c5584559521399854b79" /> <!-- c -->
+  <project path="external/dbus" name="platform/external/dbus" revision="537eaff5de9aace3348436166d4cde7adc1e488e" /> <!-- c -->
+  <project path="external/dexmaker" name="platform/external/dexmaker" /> <!-- c -->
+  <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="62bc4775ef99e3369b10fb4bd30df0cc83e18713" /> <!-- c -->
+  <project path="external/dnsmasq" name="platform/external/dnsmasq" revision="f621afad94df46204c25fc2593a19d704d2637f5" /> <!-- c -->
+  <project path="external/doclava" name="platform/external/doclava" revision="75b3d82c5c842e4be8e7d932e9dd6314b5e3b809" /> <!-- c -->
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" revision="8558eab78390d1924cd6b255686ceef133f294d5" />
   <project path="external/easymock" name="platform/external/easymock" />
