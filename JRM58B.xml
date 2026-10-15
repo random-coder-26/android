@@ -100,120 +100,123 @@
   <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="62bc4775ef99e3369b10fb4bd30df0cc83e18713" /> <!-- c -->
   <project path="external/dnsmasq" name="platform/external/dnsmasq" revision="f621afad94df46204c25fc2593a19d704d2637f5" /> <!-- c -->
   <project path="external/doclava" name="platform/external/doclava" revision="75b3d82c5c842e4be8e7d932e9dd6314b5e3b809" /> <!-- c -->
-  <project path="external/dropbear" name="platform/external/dropbear" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" revision="8558eab78390d1924cd6b255686ceef133f294d5" />
-  <project path="external/easymock" name="platform/external/easymock" />
-  <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
-  <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" revision="7d5e809721ca0f3460afcd8ae32fa366c86ec978" />
-  <project path="external/elfutils" name="platform/external/elfutils" revision="65a81b28950a6cf604aaa85b4695490a6be8e92a" />
-  <project path="external/embunit" name="platform/external/embunit" />
-  <project path="external/emma" name="platform/external/emma" revision="4d37e21b7c2fa378dbf7cfe2ea57d7f5991fe6cd" />
-  <project path="external/esd" name="platform/external/esd" />
-  <project path="external/expat" name="platform/external/expat" revision="28304159f2fea1f702929883c634e52755d6e74b" />
-  <project path="external/eyes-free" name="platform/external/eyes-free" />
-  <project path="external/fat32lib" name="platform/external/fat32lib" />
-  <project path="external/fdlibm" name="platform/external/fdlibm" revision="b7b7254d72d5a83c044abfc64121b5e646786637" />
-  <project path="external/flac" name="platform/external/flac" revision="7a4c039ab65f28a3e020557ac90ece2b21e5650f" />
-  <project path="external/freetype" name="platform/external/freetype" revision="41371e1e39c8528eb0c4bc40683c736e6683e60c" />
-  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" revision="e1dd6c88cff4f71c298921ef34f7662eb227aacf" />
-  <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
-  <project path="external/gcc-demangle" name="platform/external/gcc-demangle" revision="caf5670525abbd6b98e11bb98c620932cf795624" />
-  <project path="external/genext2fs" name="platform/external/genext2fs" />
-  <project path="external/giflib" name="platform/external/giflib" revision="b2597268aef084202a8c349d1cc072c03c6e22eb" />
-  <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
-  <project path="external/grub" name="platform/external/grub" revision="cd484b7fcd18d5f967cadbaeb6d27b62f015a5e2" />
-  <project path="external/gtest" name="platform/external/gtest" revision="cfee58b45a11221732c58582988d6bb47fb4de04" />
-  <project path="external/guava" name="platform/external/guava" revision="5b0ce86c15e41a6aca9296ad98d982a212bd0f3b" />
-  <project path="external/hamcrest" name="platform/external/hamcrest" revision="1e0972dccb32b15511bd87c40d47cfe3b8bc0624" />
-  <project path="external/harfbuzz" name="platform/external/harfbuzz" revision="a91c24cd8be65d06ffdb70f798b2c928fe65b929" />
-  <project path="external/hyphenation" name="platform/external/hyphenation" />
-  <project path="external/icu4c" name="platform/external/icu4c" revision="02c1be445f109b3ffe2b10663bff2fd8aaa9bddc" />
-  <project path="external/iproute2" name="platform/external/iproute2" revision="a6628ec1917c375e5247d707c6f1340a12b67445" />
-  <project path="external/ipsec-tools" name="platform/external/ipsec-tools" revision="c1b51d45a7363d6fa58b59bf6f12182993a7c1d0" />
-  <project path="external/iptables" name="platform/external/iptables" />
-  <project path="external/jack" name="platform/external/jack" />
-  <project path="external/javasqlite" name="platform/external/javasqlite" />
-  <project path="external/javassist" name="platform/external/javassist" revision="14b4d945586243192c8118f4f49be59ebbf561b8" />
-  <project path="external/jdiff" name="platform/external/jdiff" />
-  <project path="external/jhead" name="platform/external/jhead" revision="bc589e85af090efae3f62b5bf328a6341884b952" />
-  <project path="external/jmdns" name="platform/external/jmdns" />
-  <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" />
-  <project path="external/jpeg" name="platform/external/jpeg" revision="d4fad7f50f79626455d88523207e05b868819cd8" />
-  <project path="external/jsilver" name="platform/external/jsilver" />
-  <project path="external/jsr305" name="platform/external/jsr305" />
-  <project path="external/junit" name="platform/external/junit" revision="c62242988737e0204e6b01312faeda3b9a2b64cd" />
-  <project path="external/kernel-headers" name="platform/external/kernel-headers" revision="19522170f583b58718a9202b86a4b026826aca7f" />
+  <project path="external/dropbear" name="platform/external/dropbear" /> <!-- c -->
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" revision="6c4b42c95a01f8d3c9e7697f6de956f3b58eb9d5" /> <!-- c -->
+  <project path="external/easymock" name="platform/external/easymock" /> <!-- c -->
+  <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" /> <!-- c -->
+  <!-- Not in use until 21 Mar 2012 -->
+  <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" revision="062f011b9ecb3e13ecdd5f72a1156046e6764a32" />
+  <project path="external/elfutils" name="platform/external/elfutils" revision="669e96ff41a1b72aa034a26563d90b4768d51482" /> <!-- c -->
+  <project path="external/embunit" name="platform/external/embunit" /> <!-- c -->
+  <project path="external/emma" name="platform/external/emma" revision="4d37e21b7c2fa378dbf7cfe2ea57d7f5991fe6cd" /> <!-- c -->
+  <project path="external/esd" name="platform/external/esd" /> <!-- c -->
+  <project path="external/expat" name="platform/external/expat" revision="28304159f2fea1f702929883c634e52755d6e74b" /> <!-- c -->
+  <project path="external/eyes-free" name="platform/external/eyes-free" /> <!-- c -->
+  <project path="external/fat32lib" name="platform/external/fat32lib" /> <!-- c -->
+  <project path="external/fdlibm" name="platform/external/fdlibm" revision="b7b7254d72d5a83c044abfc64121b5e646786637" /> <!-- c -->
+  <project path="external/flac" name="platform/external/flac" revision="5893fbe890f5dab8e4146d2baa4bd2691c0739e0" /> <!-- c -->
+  <project path="external/freetype" name="platform/external/freetype" revision="27811904d8de0ce5591417812ca31163bf5aad60" /> <!-- c -->
+  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" revision="e1dd6c88cff4f71c298921ef34f7662eb227aacf" /> <!-- c -->
+  <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" /> <!-- c -->
+  <project path="external/gcc-demangle" name="platform/external/gcc-demangle" revision="caf5670525abbd6b98e11bb98c620932cf795624" /> <!-- c -->
+  <project path="external/genext2fs" name="platform/external/genext2fs" /> <!-- c -->
+  <project path="external/giflib" name="platform/external/giflib" revision="b2597268aef084202a8c349d1cc072c03c6e22eb" /> <!-- c -->
+  <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" /> <!-- c -->
+  <project path="external/grub" name="platform/external/grub" revision="cd484b7fcd18d5f967cadbaeb6d27b62f015a5e2" /> <!-- c -->
+  <project path="external/gtest" name="platform/external/gtest" revision="cfee58b45a11221732c58582988d6bb47fb4de04" /> <!-- c -->
+  <project path="external/guava" name="platform/external/guava" revision="5b0ce86c15e41a6aca9296ad98d982a212bd0f3b" /> <!-- c -->
+  <project path="external/hamcrest" name="platform/external/hamcrest" revision="1ecfda91236a8970119144e59e0ba6113dc22c0f" /> <!-- c -->
+  <project path="external/harfbuzz" name="platform/external/harfbuzz" revision="e8c9796279273597ceacba17d7bf5bcdbcecaee1" /> <!-- c -->
+  <project path="external/hyphenation" name="platform/external/hyphenation" /> <!-- c -->
+  <project path="external/icu4c" name="platform/external/icu4c" revision="0c557cf365b873106993a381b7f20be0fb738cf9" /> <!-- c -->
+  <project path="external/iproute2" name="platform/external/iproute2" revision="132841c0d7e86fabcec443b3b54aee2699b301a4" /> <!-- c -->
+  <project path="external/ipsec-tools" name="platform/external/ipsec-tools" revision="e761171cf8053d42449f8a65aa33f716cbc53813" /> <!-- c -->
+  <project path="external/iptables" name="platform/external/iptables" /> <!-- c -->
+  <project path="external/jack" name="platform/external/jack" /> <!-- c -->
+  <project path="external/javasqlite" name="platform/external/javasqlite" /> <!-- c -->
+  <project path="external/javassist" name="platform/external/javassist" revision="14b4d945586243192c8118f4f49be59ebbf561b8" /> <!-- c -->
+  <project path="external/jdiff" name="platform/external/jdiff" /> <!-- c -->
+  <project path="external/jhead" name="platform/external/jhead" revision="482486a3d21c4d4c933f3081ff14122292314bc7" /> <!-- c -->
+  <project path="external/jmdns" name="platform/external/jmdns" /> <!-- c -->
+  <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" /> <!-- c -->
+  <project path="external/jpeg" name="platform/external/jpeg" revision="d4fad7f50f79626455d88523207e05b868819cd8" /> <!-- c -->
+  <project path="external/jsilver" name="platform/external/jsilver" /> <!-- c -->
+  <project path="external/jsr305" name="platform/external/jsr305" /> <!-- c -->
+  <project path="external/junit" name="platform/external/junit" revision="21342bf7d23a5f34d6fe7217df611b1b395eb47a" /> <!-- c -->
+  <project path="external/kernel-headers" name="platform/external/kernel-headers" revision="22e2427e42fffbd75325c615729f46644c08f028" /> <!-- c -->
   <!-- Not in use until 6 September 2012 -->
-  <project path="external/libcap-ng" name="platform/external/libcap-ng" revision="42a4703bfdfa1a6d7b8bd68c161fd8785b874415" />
-  <project path="external/libffi" name="platform/external/libffi" revision="5dea54fd57265ce037ac94055b9f94a45558b39e" />
-  <project path="external/libgsm" name="platform/external/libgsm" revision="5e4516958690b9a1b2c98f88eeecba3edd2dbda4" />
-  <project path="external/liblzf" name="platform/external/liblzf" />
-  <project path="external/libmtp" name="platform/external/libmtp" />
+  <project path="external/libcap-ng" name="platform/external/libcap-ng" revision="42a4703bfdfa1a6d7b8bd68c161fd8785b874415" /> <!-- c -->
+  <project path="external/libffi" name="platform/external/libffi" revision="eba91d60092d2f728844baecf62b5d2bbd183d16" /> <!-- c -->
+  <project path="external/libgsm" name="platform/external/libgsm" revision="5e4516958690b9a1b2c98f88eeecba3edd2dbda4" /> <!-- c -->
+  <project path="external/liblzf" name="platform/external/liblzf" /> <!-- c -->
+  <project path="external/libmtp" name="platform/external/libmtp" /> <!-- c -->
   <!-- Not in use until 26 July 2012. AOSP uses a snapshot that gets rid of the commit history, to accomodate for that we use a fork of the repository on GitHub that somehow does have the history. -->
-  <project path="external/libnfc-nci" name="platform_external_libnfc-nci" remote="github" revision="c2da87779993c82bc42d32183117c5b61cc8255c" />
-  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" revision="9d5e63503d2d948bc73e85dff7b9995f3cb1ca24" />
-  <project path="external/libnl-headers" name="platform/external/libnl-headers" />
+  <project path="external/libnfc-nci" name="platform_external_libnfc-nci" remote="github" revision="c2da87779993c82bc42d32183117c5b61cc8255c" /> <!-- c -->
+  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" revision="20b7bd5f6985dc890ac99d7d1e8154f965df02db" /> <!-- c -->
+  <project path="external/libnl-headers" name="platform/external/libnl-headers" /> <!-- c -->
   <!-- Not in use until 8 August 2012 -->
-  <project path="external/libogg" name="platform/external/libogg" revision="7a4fe66caf665d0ce1becd3eee97d34b3fa52a4c" />
-  <project path="external/libpcap" name="platform/external/libpcap" />
-  <project path="external/libphonenumber" name="platform/external/libphonenumber" revision="b0e21c22b1ca6b9aeb1426924cdf42a221c3d416" />
-  <project path="external/libpng" name="platform/external/libpng" revision="4c5554b04e73f89d4a9bab8cbcec1943d8c274be" />
-  <project path="external/libppp" name="platform/external/libppp" />
-  <project path="external/libselinux" name="platform/external/libselinux" revision="52cd377a74a710b2476c6a4c46da8b59a0dce50d" />
-  <project path="external/libsepol" name="platform/external/libsepol" />
-  <project path="external/libusb" name="platform/external/libusb" />
-  <project path="external/libusb-compat" name="platform/external/libusb-compat" />
+  <project path="external/libogg" name="platform/external/libogg" revision="7a4fe66caf665d0ce1becd3eee97d34b3fa52a4c" /> <!-- c -->
+  <project path="external/libpcap" name="platform/external/libpcap" /> <!-- c -->
+  <project path="external/libphonenumber" name="platform/external/libphonenumber" revision="cc0ae7326023c5da91dd9a84035c3dc3f6cc372f" /> <!-- c -->
+  <project path="external/libpng" name="platform/external/libpng" revision="97aac99763e1d3e77afe175291595c31eabd9c9f" /> <!-- c -->
+  <project path="external/libppp" name="platform/external/libppp" /> <!-- c -->
+  <project path="external/libselinux" name="platform/external/libselinux" revision="6670f53f78cd44a6cb484785b2837439e2ba9178" /> <!-- c -->
+  <project path="external/libsepol" name="platform/external/libsepol" /> <!-- c -->
+  <project path="external/libusb" name="platform/external/libusb" /> <!-- c -->
+  <project path="external/libusb-compat" name="platform/external/libusb-compat" /> <!-- c -->
   <!-- Not in use until 8 August 2012 -->
-  <project path="external/libvorbis" name="platform/external/libvorbis" revision="da9c1638b1a2679d0f87f5438982ccefae27c17c" />
-  <project path="external/libvpx" name="platform/external/libvpx" revision="d45f2f42e089fcbab69c5200119c5c5f2985c2ed" />
-  <project path="external/libxml2" name="platform/external/libxml2" revision="64a784a6fdd98fe0f65b881f9ace00f9a55d2053" />
-  <project path="external/libxslt" name="platform/external/libxslt" />
-  <project path="external/libyuv" name="platform/external/libyuv" revision="351958316957352685f15674ee5bd71726dc993e" />
-  <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" revision="8a1715044713722b9fa01419a2148a4a2a67aae5" />
-  <project path="external/littlemock" name="platform/external/littlemock" revision="39909902f8225d886e40f929aaa25a2ef2aa58ec" />
-  <project path="external/llvm" name="platform/external/llvm" revision="0bf048c82b95f4e0b3227d275a347436197cff7f" />
-  <project path="external/lohit-fonts" name="platform/external/lohit-fonts" revision="93831fc2533ad2048b6d787dbd1839112625b8ad" />
-  <project path="external/markdown" name="platform/external/markdown" revision="21ce115e566aa5af7fe8a971805af1daab12c754" />
-  <project path="external/mdnsresponder" name="platform/external/mdnsresponder" revision="cf36684dd6ea25b2490317f2f76d2586b4c3e834" />
-  <project path="external/mesa3d" name="platform/external/mesa3d" revision="187673e91a83c961078367a2777e7114cc5c734f" />
-  <project path="external/mksh" name="platform/external/mksh" revision="03ebf06f4e1112a0e9533b93062d169232c4cbfe" />
-  <project path="external/mockwebserver" name="platform/external/mockwebserver" revision="3b406d4de9b5f0f1caa990f079075eb0bfc5220a" />
+  <project path="external/libvorbis" name="platform/external/libvorbis" revision="da9c1638b1a2679d0f87f5438982ccefae27c17c" /> <!-- c -->
+  <project path="external/libvpx" name="platform/external/libvpx" revision="3a40da0d96da5c520e7707aa14f48a80956e20d7" /> <!-- c -->
+  <project path="external/libxml2" name="platform/external/libxml2" revision="82fe084c750cb2e6c839ec8b6aad5e2bb87c14dd" /> <!-- c -->
+  <project path="external/libxslt" name="platform/external/libxslt" /> <!-- c -->
+  <project path="external/libyuv" name="platform/external/libyuv" revision="351958316957352685f15674ee5bd71726dc993e" /> <!-- c -->
+  <!-- Not in use until 22 March 2012 -->
+  <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" revision="0ac95d24c96258485f471382fbc5da460e8fd866" />
+  <project path="external/littlemock" name="platform/external/littlemock" revision="40d40a3f2ebf988f36b828157be56cc12c9c70ac" /> <!-- c -->
+  <project path="external/llvm" name="platform/external/llvm" revision="dfa1896b6b61e708f002b814794890ff308172ee" /> <!-- c -->
+  <project path="external/lohit-fonts" name="platform/external/lohit-fonts" revision="93831fc2533ad2048b6d787dbd1839112625b8ad" /> <!-- c -->
+  <project path="external/markdown" name="platform/external/markdown" revision="21ce115e566aa5af7fe8a971805af1daab12c754" /> <!-- c -->
+  <!-- Not in use until 20 March 2012 -->
+  <project path="external/mdnsresponder" name="platform/external/mdnsresponder" revision="c9efbc19057449cc86923b3eb9b30256de9dcee7" />
+  <project path="external/mesa3d" name="platform/external/mesa3d" revision="ba69b373d0c47984e58c37bd26f860ee6e1baa50" /> <!-- c -->
+  <project path="external/mksh" name="platform/external/mksh" revision="03ebf06f4e1112a0e9533b93062d169232c4cbfe" /> <!-- c -->
+  <project path="external/mockwebserver" name="platform/external/mockwebserver" revision="24198dd39014c4490b963f039b04d52e01d79bc5" /> <!-- c -->
   <!-- Not in use until 20 September 2012 -->
-  <project path="external/mp4parser" name="platform/external/mp4parser" revision="8436c0da2d787a33439f14e9273ea647f346fa9b" />
-  <project path="external/mtpd" name="platform/external/mtpd" revision="fba8fdc6c588873aa944d7aa79b2f12ade78566a" />
+  <project path="external/mp4parser" name="platform/external/mp4parser" revision="8436c0da2d787a33439f14e9273ea647f346fa9b" /> <!-- c -->
+  <project path="external/mtpd" name="platform/external/mtpd" revision="440221128bf7a17d788be5caeefb0e7e1c89e95a" /> <!-- c -->
   <!-- Not in use until 23 September 2012 -->
-  <project path="external/naver-fonts" name="platform/external/naver-fonts" revision="22b92e01287be8705e2d7637c6d70538b051d91c" />
-  <project path="external/netcat" name="platform/external/netcat" />
-  <project path="external/netperf" name="platform/external/netperf" />
-  <project path="external/neven" name="platform/external/neven" revision="7f22db82120e7ac17165ab7614e417baa2742623" />
-  <project path="external/nist-sip" name="platform/external/nist-sip" />
-  <project path="external/oauth" name="platform/external/oauth" />
+  <project path="external/naver-fonts" name="platform/external/naver-fonts" revision="22b92e01287be8705e2d7637c6d70538b051d91c" /> <!-- c -->
+  <project path="external/netcat" name="platform/external/netcat" /> <!-- c -->
+  <project path="external/netperf" name="platform/external/netperf" /> <!-- c -->
+  <project path="external/neven" name="platform/external/neven" revision="7f22db82120e7ac17165ab7614e417baa2742623" /> <!-- c -->
+  <project path="external/nist-sip" name="platform/external/nist-sip" /> <!-- c -->
+  <project path="external/oauth" name="platform/external/oauth" /> <!-- c -->
   <!-- Not in use until 9 August 2012 -->
-  <project path="external/okhttp" name="platform/external/okhttp" revision="7a1ebf3e89e87f0130a3fd257e7cbb6a44c7cbf2" />
-  <project path="external/opencv" name="platform/external/opencv" />
+  <project path="external/okhttp" name="platform/external/okhttp" revision="7a1ebf3e89e87f0130a3fd257e7cbb6a44c7cbf2" /> <!-- c -->
+  <project path="external/opencv" name="platform/external/opencv" /> <!-- c -->
   <!-- Not in use until 30 May 2012 -->
-  <project path="external/openfst" name="platform/external/openfst" revision="a92766f0a6ba4fac46cd6fd3856ef20c3b204f0d" />
-  <project path="external/openssh" name="platform/external/openssh" revision="e6f4e8e2fecd6edf704118f679750e412d227c3f" />
-  <project path="external/openssl" name="platform/external/openssl" revision="a1a5710c055e139ea00e785f9eb55b3af3e4dab1" />
-  <project path="external/oprofile" name="platform/external/oprofile" />
-  <project path="external/ping" name="platform/external/ping" revision="e9640ed4c9c4441b512fd17344b8ca7ab507c176" />
-  <project path="external/ping6" name="platform/external/ping6" revision="82aaae2089b39522da2d4f93a996d78930ec3382" />
-  <project path="external/ppp" name="platform/external/ppp" revision="ab377ba41c51981a0fa4d5aaf350fe4ca540a610" />
-  <project path="external/proguard" name="platform/external/proguard" />
-  <project path="external/protobuf" name="platform/external/protobuf" revision="e217977611c52bccde7f7c78e1d3c790c6357431" />
-  <project path="external/qemu" name="platform/external/qemu" revision="e8fcb30c56cecf31701a886e03c87a64c774025f" />
-  <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
-  <project path="external/quake" name="platform/external/quake" revision="3a8615dddb462ae2ab51f864ebdfa846907537cd" />
+  <project path="external/openfst" name="platform/external/openfst" revision="a92766f0a6ba4fac46cd6fd3856ef20c3b204f0d" /> <!-- c -->
+  <project path="external/openssh" name="platform/external/openssh" revision="d1e76ad972fb7d7db3087d9f50795134f0421dd4" /> <!-- c -->
+  <project path="external/openssl" name="platform/external/openssl" revision="48ab0d92457e1d77588be52be12076e372fdbcb7" /> <!-- c -->
+  <project path="external/oprofile" name="platform/external/oprofile" /> <!-- c -->
+  <project path="external/ping" name="platform/external/ping" revision="e9640ed4c9c4441b512fd17344b8ca7ab507c176" /> <!-- c -->
+  <project path="external/ping6" name="platform/external/ping6" revision="82aaae2089b39522da2d4f93a996d78930ec3382" /> <!-- c -->
+  <project path="external/ppp" name="platform/external/ppp" revision="ab377ba41c51981a0fa4d5aaf350fe4ca540a610" /> <!-- c -->
+  <project path="external/proguard" name="platform/external/proguard" /> <!-- c -->
+  <project path="external/protobuf" name="platform/external/protobuf" revision="e217977611c52bccde7f7c78e1d3c790c6357431" /> <!-- c -->
+  <project path="external/qemu" name="platform/external/qemu" revision="bf45fc2a26358b7ec52cb17bb9d6ed67d6483b01" /> <!-- c -->
+  <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" /> <!-- c -->
+  <project path="external/quake" name="platform/external/quake" revision="ffadbd4cdb7b77ef898c80ab13b81f1d8ef1a068" /> <!-- c -->
   <!-- Not in use until 14 May 2012 -->
-  <project path="external/regex-re2" name="platform/external/regex-re2" revision="6849b47ff6a92539a62165fd1306f9b6ac52c9b3" />
-  <project path="external/replicaisland" name="platform/external/replicaisland" revision="bf8b8c8eae8f7df938db8194854d48a57cc3102e" />
-  <project path="external/safe-iop" name="platform/external/safe-iop" revision="07073634e2e3aa4f518e36ed5dec3aabc549d5fb" />
-  <project path="external/sepolicy" name="platform/external/sepolicy" revision="4e85633384a4eda497a0084fc36e9919bc4fdfa9" />
-  <project path="external/skia" name="platform/external/skia" revision="f98d96e192db421eed54103eedfcbb6600f73c08" />
-  <project path="external/smali" name="platform/external/smali" />
-  <project path="external/sonivox" name="platform/external/sonivox" revision="e6d06460f6936adaf2c5df783700a683fd082878" />
-  <project path="external/speex" name="platform/external/speex" revision="ebe6230a7f7c69f5a4389f2b09b7b19ef9e94f32" />
-  <project path="external/sqlite" name="platform/external/sqlite" revision="c82acac4e67711e8d9289b572d334298aeb5d806" />
+  <project path="external/regex-re2" name="platform/external/regex-re2" revision="6849b47ff6a92539a62165fd1306f9b6ac52c9b3" /> <!-- c -->
+  <project path="external/replicaisland" name="platform/external/replicaisland" revision="bf8b8c8eae8f7df938db8194854d48a57cc3102e" /> <!-- c -->
+  <project path="external/safe-iop" name="platform/external/safe-iop" revision="07073634e2e3aa4f518e36ed5dec3aabc549d5fb" /> <!-- c -->
+  <project path="external/sepolicy" name="platform/external/sepolicy" revision="4c6f1ce8eede62acbaaa02e9fa72b3f218660b8c" /> <!-- c -->
+  <project path="external/skia" name="platform/external/skia" revision="341c93bd153d8fcc55114b0148301e98e34bc13c" /> <!-- c -->
+  <project path="external/smali" name="platform/external/smali" /> <!-- c -->
+  <project path="external/sonivox" name="platform/external/sonivox" revision="e6d06460f6936adaf2c5df783700a683fd082878" /> <!-- c -->
+  <project path="external/speex" name="platform/external/speex" revision="ebe6230a7f7c69f5a4389f2b09b7b19ef9e94f32" /> <!-- c -->
+  <project path="external/sqlite" name="platform/external/sqlite" revision="40a8df2afea8009142f6ff635956f05b2801dd00" /> <!-- c -->
   <project path="external/srec" name="platform/external/srec" revision="2018726aeb9a40b84670483d5e6ef381f662ddd9" />
   <project path="external/srtp" name="platform/external/srtp" revision="386ce4d9144fc190797f4e43a31aeaf76ca2e373" />
   <project path="external/stlport" name="platform/external/stlport" revision="851d6c79e23793b3dc01a78054206deb33cf510b" />
