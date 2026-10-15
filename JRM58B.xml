@@ -19,36 +19,36 @@
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" d3271024770ddcc2fb87dd22f8280764545ab05a/> <!-- c -->
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" revision="bbed54b17d6ad57e7e9d79a04d7ece9f65fe633d" /> <!-- c -->
   <project path="bootable/recovery" name="platform/bootable/recovery" revision="53013c464552911a17585d1915a87011d2c2abc5" /> <!-- c -->
-  <project path="cts" name="platform/cts" revision="506b01d2a2ffc0ce810e6f165410dad42afbacf0" />
-  <project path="dalvik" name="platform/dalvik" revision="56211ff5a118af4aeaef2b7f76e07c1143364f25" />
-  <project path="development" name="platform/development" revision="f7f09951dcefeb761440a855bcb9a7c180c557d2" />
+  <project path="cts" name="platform/cts" revision="59a0205a4291a44eadddf09ee06af7fdd6bb59c9" /> <!-- c -->
+  <project path="dalvik" name="platform/dalvik" revision="05b50165be074c7161184fa0ad191e3cccd593fd" /> <!-- c -->
+  <project path="development" name="platform/development" revision="8df87bdd73f46330cd9d47eeadd4159155852132" /> <!-- c -->
   <!-- Not in use until 29 May 2012 -->
-  <project path="device/asus/grouper" name="device/asus/grouper" groups="device" revision="150e057022abf927ab342e039530d47e50267f51" />
+  <project path="device/asus/grouper" name="device/asus/grouper" groups="device" revision="150e057022abf927ab342e039530d47e50267f51" /> <!-- c -->
   <!-- Not in use until 6 August 2012 -->
-  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device" revision="8da405647c82e5f4a6bde59f8ee5bc83a91e569c" />
-  <project path="device/common" name="device/common" revision="9cb1b4a67ef2a9c0a487606aee8f11f2c906a84b" />
+  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device" revision="8da405647c82e5f4a6bde59f8ee5bc83a91e569c" /> <!-- c -->
+  <project path="device/common" name="device/common" revision="94d3522c8193b4dcb4e88f697d0f68996da7e395" /> <!-- c -->
   <!-- Not in use until 6 June 2012 -->
-  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" revision="62e685ff51119fdd2c86bf8368bf84aa50e60756" />
+  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" revision="62e685ff51119fdd2c86bf8368bf84aa50e60756" /> <!-- c -->
   <!-- Not in use until 6 June 2012 -->
-  <project path="device/generic/armv7-a" name="device/generic/armv7-a" revision="13cbad84aa37de9c22e93af0fc764f975971ef73" />
+  <project path="device/generic/armv7-a" name="device/generic/armv7-a" revision="13cbad84aa37de9c22e93af0fc764f975971ef73" /> <!-- c -->
   <!-- Not in use until 17 August 2012 -->
-  <project path="device/generic/common" name="device/generic/common" revision="430704d6d32825cfbab52f4e75aae47f8595c1e9" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" revision="f7f6d5db6ad9d740a19cb613faa1e1f64fc38052" />
+  <project path="device/generic/common" name="device/generic/common" revision="430704d6d32825cfbab52f4e75aae47f8595c1e9" /> <!-- c -->
+  <project path="device/generic/goldfish" name="device/generic/goldfish" revision="89845e0f29e2f5ea5869c298f446ff34c47b0213" /> <!-- c -->
   <!-- Not in use until 15 August 2012 -->
-  <project path="device/generic/mips" name="device/generic/mips" revision="e5ecd72fc11a068a009f27156f9b18859d8e6edd" />
+  <project path="device/generic/mips" name="device/generic/mips" revision="e5ecd72fc11a068a009f27156f9b18859d8e6edd" /> <!-- c -->
   <!-- Not in use until 8 August 2012 -->
-  <project path="device/generic/x86" name="device/generic/x86" revision="7645fecaef50e8f283a29d85cef9b78cbb03f2eb" />
-  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" revision="9b1ef69828775a15396b753c16a83417bb769138" />
-  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" revision="c35b0f59498895a58dcc3d0ab8fb03683e123ded" />
+  <project path="device/generic/x86" name="device/generic/x86" revision="7645fecaef50e8f283a29d85cef9b78cbb03f2eb" /> <!-- c -->
+  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" revision="9b1ef69828775a15396b753c16a83417bb769138" /> <!-- c -->
+  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" revision="c35b0f59498895a58dcc3d0ab8fb03683e123ded" /> <!-- c -->
   <!-- Not in use until 5 June 2012 -->
-  <project path="device/lge/mako" name="device/lge/mako" groups="device" revision="600dd1b72072a6694a3e71223568162726df2371" />
+  <project path="device/lge/mako" name="device/lge/mako" groups="device" revision="600dd1b72072a6694a3e71223568162726df2371" /> <!-- c -->
   <!-- Not in use until 13 November 2012, no "Initial empty repository" commit -->
   <!--<project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device" />-->
-  <project path="device/moto/common" name="device/moto/common" revision="refs/heads/jb-dev" />
-  <project path="device/moto/stingray" name="device/moto/stingray" revision="f76699a312ccf62a1b267f64dcbfa880c17a0123" />
-  <project path="device/moto/wingray" name="device/moto/wingray" revision="80c6fa60cf9d64ca4f936f3367cdb15fd64a5065" />
-  <project path="device/sample" name="device/sample" revision="792bdcaf1f80756fdeac1b8bf7073c1c76474a94" />
-  <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device" revision="2730dc9b3d34ef636d76d3e1d293706062e01639" />
+  <project path="device/moto/common" name="device/moto/common" revision="refs/heads/jb-dev" /> <!-- c -->
+  <project path="device/moto/stingray" name="device/moto/stingray" revision="18c475ac6cb2f32a2dec9828f23b00c3e403eafe" /> <!-- c -->
+  <project path="device/moto/wingray" name="device/moto/wingray" revision="6d79833423d0254f0523dce3e63c7e65ccf89a7b" /> <!-- c -->
+  <project path="device/sample" name="device/sample" revision="3152efbaadeca4a46f4031cc7d0b4c8f4dfd2001" /> <!-- c -->
+  <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device" revision="bfaef574b5b79a7d44d94b0f92ee2b98f0109781" /> <!-- c -->
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device" revision="66b2ff08cceae69468bf0cb984b5597933215e39" />
   <project path="device/samsung/toro" name="device/samsung/toro" groups="device" revision="f6bbbbae8d43c93c2b641898deda5ea6e091599e" />
   <!-- Not in use until 6 August 2012 -->
