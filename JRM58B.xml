@@ -60,29 +60,30 @@
   <project path="device/ti/panda" name="device/ti/panda" groups="device" revision="c870ea3e35d8a3525926496231a2fbb7b6631c8b" /> <!-- c -->
   <project path="docs/source.android.com" name="platform/docs/source.android.com" revision="7d1db96405b58b4b771883b7f77d94ef24bb3c1b" /> <!-- c -->
   <!-- AOSP uses a snapshot that gets rid of the commit history, to accomodate for that we use a fork of the repository on GitHub that somehow does have the history. -->
-  <project path="external/aac" name="platform_external_aac" remote="github" revision="9bf37cc9712506b2483650c82d3c41152337ef7e" />
-  <project path="external/android-clat" name="platform/external/android-clat" />
-  <project path="external/android-mock" name="platform/external/android-mock" revision="40bb73886c61d4b2e96bab98b50c1cbfcb54d9a3" />
+  <project path="external/aac" name="platform_external_aac" remote="github" revision="9bf37cc9712506b2483650c82d3c41152337ef7e" /> <!-- c -->
+  <!-- Not in use until 6 March 2012 -->
+  <project path="external/android-clat" name="platform/external/android-clat" /> <!-- c -->
+  <project path="external/android-mock" name="platform/external/android-mock" revision="40bb73886c61d4b2e96bab98b50c1cbfcb54d9a3" /> <!-- c -->
   <!-- Not in use until 14 May 2012 -->
-  <project path="external/ant-glob" name="platform/external/ant-glob" revision="d1fa5c0d9856fe4e3dc2d30cb96e3cc847ff125f" />
-  <project path="external/antlr" name="platform/external/antlr" />
-  <project path="external/apache-harmony" name="platform/external/apache-harmony" revision="5b53d279675709a4beb54974c72e257c1262da2c" />
-  <project path="external/apache-http" name="platform/external/apache-http" revision="b975b95b02a5ae8e9e0f909c9ad39d61ba55fed4" />
-  <project path="external/apache-qp" name="platform/external/apache-qp" />
-  <project path="external/apache-xml" name="platform/external/apache-xml" revision="74b8044dcd1208a1fc11ee9638584be74663c5a3" />
+  <project path="external/ant-glob" name="platform/external/ant-glob" revision="d1fa5c0d9856fe4e3dc2d30cb96e3cc847ff125f" /> <!-- c -->
+  <project path="external/antlr" name="platform/external/antlr" /> <!-- c -->
+  <project path="external/apache-harmony" name="platform/external/apache-harmony" revision="5b53d279675709a4beb54974c72e257c1262da2c" /> <!-- c -->
+  <project path="external/apache-http" name="platform/external/apache-http" revision="b975b95b02a5ae8e9e0f909c9ad39d61ba55fed4" /> <!-- c -->
+  <project path="external/apache-qp" name="platform/external/apache-qp" /> <!-- c -->
+  <project path="external/apache-xml" name="platform/external/apache-xml" revision="74b8044dcd1208a1fc11ee9638584be74663c5a3" /> <!-- c -->
   <!-- Not in use until 1 August 2012, no "Initial empty repository" commit -->
   <!--<project path="external/arduino" name="platform/external/arduino" />-->
-  <project path="external/astl" name="platform/external/astl" revision="0a397b4802b88af52c30e0f866929c70ef7e121b" />
-  <project path="external/bison" name="platform/external/bison" />
-  <project path="external/blktrace" name="platform/external/blktrace" revision="55236cdbcee4e543d69e2c25dbf27c62301d760a" />
+  <project path="external/astl" name="platform/external/astl" revision="0a397b4802b88af52c30e0f866929c70ef7e121b" /> <!-- c -->
+  <project path="external/bison" name="platform/external/bison" /> <!-- c -->
+  <project path="external/blktrace" name="platform/external/blktrace" revision="55236cdbcee4e543d69e2c25dbf27c62301d760a" /> <!-- c -->
   <!-- Was external/bluetooth/bluez until 14 July 2012, then it became external/bluetooth/bluedroid -->
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="635699a5d1761b3ed9572537fc620e0eb05bf500" />
+  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="f78869fbc9c8df7bd07e9ae294ef2d71960dcd9e" /> <!-- c -->
   <!-- Not in use until 14 July 2012. AOSP uses a snapshot that gets rid of the commit history, to accomodate for that we use a fork of the repository on GitHub that somehow does have the history. -->
-  <project path="external/bluetooth/bluedroid" name="platform_external_bluetooth_bluedroid" remote="github" revision="a2ca4b83ab8bbbfd8d5f6693e927ed4b82094624" />
+  <project path="external/bluetooth/bluedroid" name="platform_external_bluetooth_bluedroid" remote="github" revision="a2ca4b83ab8bbbfd8d5f6693e927ed4b82094624" /> <!-- c -->
   <!-- Required for compile by bluetooth/bluez -->
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="refs/heads/jb-dev" />
+  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="refs/heads/jb-dev" /> <!-- c -->
   <!-- Required for compile by bluetooth/bluez -->
-  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" revision="refs/heads/jb-dev" />
+  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" revision="refs/heads/jb-dev" /> <!-- c -->
   <project path="external/bouncycastle" name="platform/external/bouncycastle" revision="c3ca927de0c0655e1f8d618d13f1de19b2b7975e" />
   <project path="external/bsdiff" name="platform/external/bsdiff" revision="81872540236d9bb15cccf963d05b9de48baa5375" />
   <project path="external/bzip2" name="platform/external/bzip2" revision="414a94a045a359ab76fa22feaee883180a9b2779" />
