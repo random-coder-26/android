@@ -10,7 +10,7 @@
            remote="aosp"
            sync-j="4" />
 <!-- Comments reading "C" were temporary markers to indicate those had been changed to their correct dates so I didn't forget which ones are completed already, those markers have been removed post-completion. -->
-<!-- Manifest of Android 4.2 build JRM58B. Build tagged on 27 Feburary 2012, manifest made on (later date). -->
+<!-- Manifest of Android 4.2 build JRM58B. Build tagged on 27 Feburary 2012, manifest made on 14 October 2026. -->
   <project path="build" name="platform/build" revision="98490418afeff0c5a65cb9d869e442f9f471f10b" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
