@@ -257,95 +257,97 @@
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" revision="fa879b90d12cf8b49d4dc770d6dcad7495a4e4f7" /> <!-- c -->
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="806a51372a75c9c84af4c844b80e23796a3ebd78" /> <!-- c -->
   <project path="frameworks/mff" name="platform/frameworks/mff" /> <!-- c -->
-  <project path="frameworks/ml" name="platform/frameworks/ml" revision="b019e89cbea221598c482b05ab68b7660b41aa23" />
-  <project path="frameworks/native" name="platform/frameworks/native" revision="6b8bef64f7ed94a45c1b03f65f4bffb9eba86889" />
-  <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" revision="1546ea7c0d8791a690af9326904f1472321c95df" />
-  <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
-  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
-  <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" revision="276f4096ba05670520cd749ff20f45bbcf22f08c" />
+  <!-- Not in use until 1 March 2012 -->
+  <project path="frameworks/ml" name="platform/frameworks/ml" revision="11ac59df683f8c63530a970d058ca30e6bfe1b89" /> <!-- c -->
+  <project path="frameworks/native" name="platform/frameworks/native" revision="f4a475427f353ecb17891d1f2000c34216befb40" /> <!-- c -->
+  <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" revision="1de9c0f5dd625a44c634087e4fa485893a31a066" /> <!-- c -->
+  <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" /> <!-- c -->
+  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" /> <!-- c -->
+  <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" /> <!-- c -->
+  <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" revision="93c6e5080b092175743cac20f584f62ec1c244c5" /> <!-- c -->
   <!-- Not in use until 14 June 2012 -->
-  <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" revision="578987cea939f96ace0ed976edf4a15685f4c366" />
+  <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" revision="578987cea939f96ace0ed976edf4a15685f4c366" /> <!-- c -->
   <!-- Not in use until 25 June 2012 -->
-  <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" revision="b87362e0a6de2bf398fd4b135c66adcfbb42d8e7" />
+  <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" revision="b87362e0a6de2bf398fd4b135c66adcfbb42d8e7" /> <!-- c -->
   <!-- Not in use until 11 July 2012 -->
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" revision="f4ba68aa88637e9df034fce94971535852cc0a7b" />
-  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" revision="449d710428682b3f44ba20ce290564cd9352ca0a" />
-  <project path="frameworks/rs" name="platform/frameworks/rs" revision="ec3fc1163c01e18b1454057723c451f0d96868ad" />
-  <project path="frameworks/support" name="platform/frameworks/support" revision="a535e06412ade3939d8fcf165e54d29817dc2e7b" />
+  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" revision="f4ba68aa88637e9df034fce94971535852cc0a7b" /> <!-- c -->
+  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" revision="449d710428682b3f44ba20ce290564cd9352ca0a" /> <!-- c -->
+  <project path="frameworks/rs" name="platform/frameworks/rs" revision="354add223fc498229b874e41477a874afe42ba2a" /> <!-- c -->
+  <project path="frameworks/support" name="platform/frameworks/support" revision="4d7f4bd9b389a6d52c82822ecc49dab22ac51854" /> <!-- c -->
   <!-- Not in use until 7 May 2012 -->
-  <project path="frameworks/testing" name="platform/frameworks/testing" revision="83ad9f36a8f34dfb2b7280667ba1f2f02282ac72" />
-  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" revision="84ed0307dcc468a925c8e779e804367345177ff3" />
-  <project path="gdk" name="platform/gdk" revision="90dfd3839f9f755ee288e5d64fb2221d1512ea8d" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="282e896c51c1f8ae9f5f31608b29f08d3f791753" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" revision="8792ef0f74a024dec788de02f60280dd66f871f3" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="f7781bc9ddc89221c5768200667cfd7e6663d5ae" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="739022f26a7127ba76a98dda65411496086114a7" />
-  <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="55de9c5b09fe41f782ed6e49b69f8f649181cc84" />
+  <project path="frameworks/testing" name="platform/frameworks/testing" revision="83ad9f36a8f34dfb2b7280667ba1f2f02282ac72" /> <!-- c -->
+  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" revision="01e4a8ff63523bba5c8f919a72e0adb66daf4b98" /> <!-- c -->
+  <project path="gdk" name="platform/gdk" revision="f2cb0bbbf4029093cfdbf9d3bd6e03989a6ef1b2" /> <!-- c -->
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="3b079a563a92100a1c0043e39770472f90eebe5d" /> <!-- c -->
+  <project path="hardware/invensense" name="platform/hardware/invensense" revision="9276dfdee15ff3734e352abe8a3f04bfc3064d09" /> <!-- c -->
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="d543b8ae4a38267a749e9a3e333455fb1209ab13" /> <!-- c -->
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="c9846835ef3dc313d5096af937f8701271e6eb2e" /> <!-- c -->
+  <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="a668ffc93bd0eef29b143e0335bb63f69dc17dd8" /> <!-- c -->
   <!-- Not in use until 13 June 2012 -->
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" revision="1e47753cbf3fa2a5178464ba806fa40273338f54" />
+  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" revision="1e47753cbf3fa2a5178464ba806fa40273338f54" /> <!-- c -->
   <!-- Not in use until 10 October 2012 -->
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" revision="edcb5ac755348d3f5f0d753587576a6b2b1ec632" />
+  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" revision="edcb5ac755348d3f5f0d753587576a6b2b1ec632" /> <!-- c -->
   <!-- Not in use until 6 July 2012 -->
-  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" revision="abd3b9078a41c84e39fb8b3933b53a2dd510b746" />
+  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" revision="abd3b9078a41c84e39fb8b3933b53a2dd510b746" /> <!-- c -->
   <!-- Not in use until 11 June 2012 -->
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" revision="07966eed60158efefeb39f82eab9b5bbc75f84f2" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" revision="80698b8a3d09cec7485499d634f4f96f614ec26c" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="bac93072368cffe559a5621f32e6549e77ffc9cf" />
-  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
+  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" revision="07966eed60158efefeb39f82eab9b5bbc75f84f2" /> <!-- c -->
+  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" revision="8b3fe9b3cff6b59b2f4977dcce9b3c1ae47c2e25" /> <!-- c -->
+  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" /> <!-- c -->
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="6c5d832a6967e45bf742e1e612328d0fdccb3031" /> <!-- c -->
+  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" /> <!-- c -->
   <!-- Not in use until 17 October 2012 -->
-  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" revision="4feec740e8bfd3d88bf5c22e4932ad5115e4898f" />
-  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
+  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" revision="4feec740e8bfd3d88bf5c22e4932ad5115e4898f" /> <!-- c -->
+  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" /> <!-- c -->
   <!-- Not in use until 19 August 2012 -->
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" revision="c000b5a7c6e18017fcf0df9f61ddb6806eef7542" />
-  <project path="hardware/ril" name="platform/hardware/ril" revision="8add90564c4c0ba63c42314706aa7592f330aa7a" />
-  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" revision="df6aac4503d4c5581f3d25720b3e7d5d6d9be139" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="726dfe7cd16efb9640283c86504cf1a3fb857277" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="fc8a1048438e4744e193a65d95bcb0bf73bfa2a8" />
-  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="fb2460b616379e075a42ef6be0ca4d6723d36239" />
-  <project path="libcore" name="platform/libcore" revision="60cf2c30f267662068ad48cefb7ffcf87c6fa0b9" />
+  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" revision="c000b5a7c6e18017fcf0df9f61ddb6806eef7542" /> <!-- c -->
+  <project path="hardware/ril" name="platform/hardware/ril" revision="4092e363aed09f26c5e758c3eb1afdb1767ddb47" /> <!-- c -->
+  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" revision="498fa00c94050aa37a8b3ca93b160aebaeceeadd" /> <!-- c -->
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" /> <!-- c -->
+  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" revision="fe2407ea08984c2fffff69726e8ba43ca2a8edd9" /> <!-- c -->
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="cf8b350d98fc7b3e572937aa14d9bf4bf058ebb9" /> <!-- c -->
+  <!-- Not in use until 5 March 2012 -->
+  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="12ddecd1fa87e02a12de5993e2ad31e3ebb9648e" /> <!-- c -->
+  <project path="libcore" name="platform/libcore" revision="7adec48377475080e79c04cc1c2e240478a5b354" /> <!-- c -->
   <!-- Not in use until 3 May 2012 -->
-  <!--<project path="libnativehelper" name="platform/libnativehelper" revision="e2b11e7e4077187462324810d2b8a404417ba6a2" />-->
-  <project path="ndk" name="platform/ndk" revision="b4e03cfc4707c96f367709aa8adea9f0de908fe6" />
-  <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" revision="10259bc777177f7ca1dbdd3f3478932923f0039e" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" revision="b83d52ee2888da517f13cd9fb56f4ed642b9b3e8" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" revision="799a1ac48f47606404608d06f5aa17d0d3118a1b" />
-  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="c4e41d3e162a8247cada250354387de0fa23d76b" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="befa15c0a47a744a7c28a9be7b079a93e195c833" />
-  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="71bf9ebe0f207c1af741e3b76d84dde1358faa1b" />
-  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" revision="47ffe15b440cb98548c0f2c58cbd1e64dd0435db" />
-  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" revision="83df03c8f5d61d37e2fda501c67937f970b7af0c" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="dd3dc56d035914f80147fd8fa100a849f9215a3d" />
-  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="05a257d2932abcae81c2637b1bc0e5c5c1aab878" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="1f6dab6685667efbe67aa8b7c7bfd1f6b124d269" />
-  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="3f136f1a425c1a37ca2a10a8524b1bb4ace870a7" />
-  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="a2b697c17c7ea0a2a58ab91b977bb043109f1fcc" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" revision="f58550407fffcddd0ecc656809288b6f034585fe" />
-  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" revision="e3a92028333230c02926f9a6151cb00300d87b76" />
-  <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" revision="b9bae2cd234ed07d72cf73616d15774860eac023" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" revision="14091b1df4dded743ecdbfe7caabfbaaaaaf0713" />
+  <!--<project path="libnativehelper" name="platform/libnativehelper" revision="e2b11e7e4077187462324810d2b8a404417ba6a2" />--> <!-- c -->
+  <project path="ndk" name="platform/ndk" revision="293ae179758b1903606bc3aaf44756db2fe4fddf" /> <!-- c -->
+  <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" revision="098a6d8fbd4382eab84724eb06e2c5608c458a7f" /> <!-- c -->
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" revision="5bd7fa3628fe0ce89897670de435a81cb589b3ac" /> <!-- c -->
+  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" revision="7a6cb06508a8128fead0cfe5f10cfae935d78b6b" /> <!-- c -->
+  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="9908904f5e67f79769968ba8c01efb02a8af75ea" /> <!-- c -->
+  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="dd7f782c4918bd366e8b705f741788ec7fbff88b" /> <!-- c -->
+  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="79351778ffca0c88bb422c5f7a3f2863c3516751" /> <!-- c -->
+  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" revision="70789cc5e67e60304f33444459e0d033eb093063" /> <!-- c -->
+  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" revision="9258f0709ea23afa0f2c66a5654c0464da7644d3" /> <!-- c -->
+  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="912fb78115280ddaa484696ddf853e12c865921f" /> <!-- c -->
+  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="91b2ad6949ecc3e63869b0650444c4f3e8981709" /> <!-- c -->
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="fd077592ee06b27ad70281f05a6239d9c943b52f" /> <!-- c -->
+  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" revision="be0aafb8f8a28d0b5520995379cd79b04ff7c2e9" /> <!-- c -->
+  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="331c1b76cb5797d337d2db53e15377075cc3ed4b" /> <!-- c -->
+  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" revision="2d309bb7e832ab0fd20ddae5115155c6573e0bb9" /> <!-- c -->
+  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" revision="0a44c24b08e9414da31f30545600b324b83c6b4b" /> <!-- c -->
+  <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" revision="39e36e58a7fd0a4520af5467719dac73afc205b4" /> <!-- c -->
+  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" revision="a95d329dea8c1aa09f50cc7ca897f454b161a454" /> <!-- c -->
   <!-- Not in use until 4 June 2012 -->
-  <!--<project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" revision="efa3f22e42b31bfcf916610e01efe0bdc4940080" />-->
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="1e2705f1e5a97c993cb87e1f96bc353588e30f4e" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" revision="198a0a2c50c3f9ddd6a1d024797362aa1ca5e32b" />
-  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" revision="d9fc04055aed9130f02627a73414ee12865a473d" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="68bd18ee08c057b72b94f467d440766e70bec3e6" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" revision="c9aa09a5a16a3017dc597c6b4715106c8b72e2e7" />
-  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" revision="812dbdb13abbe2d8a9951f8683f84fa14b1c99ef" />
-  <project path="packages/apps/Protips" name="platform/packages/apps/Protips" revision="1523bc37f4a30f890d2c17afc604ff364132ebab" />
-  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" revision="86bf6d8ac38de74b1bead64ac26fe5130dfffbf5" />
-  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" revision="4a62105fd1a7b605f77c5859ac6b1b822ea2e1a1" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="bd4bac327b27ab42ba3bdc87d8655c9c21bfda5d" />
-  <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
-  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="de28200b196b869971368f90436f637273212065" />
-  <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" revision="10f05a57805c5409f990959dcad25c67a82ec16d" />
-  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" revision="62db451fb742f17669300b9915b9f446f43361ce" />
-  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="038e7d6dde7c7105240d8c248198ce6191679324" />
-  <project path="packages/apps/Tag" name="platform/packages/apps/Tag" revision="9e84cb935447dd11d16a3f9ff51cf65181d1e6c0" />
+  <!--<project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" revision="efa3f22e42b31bfcf916610e01efe0bdc4940080" />--> <!-- c -->
+  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="b58ec477a782866589672c258b5bfc7394922233" /> <!-- c -->
+  <project path="packages/apps/Music" name="platform/packages/apps/Music" revision="47fc5d71f3c8774c7e76141dd00cf42624961ff7" />
+  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" revision="12d88fb3c37bca9a496d5a2d1deaf30494ebf87e" /> <!-- c -->
+  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="51c2c8f3f8495c9521f15748495b2786cdf97744" /> <!-- c -->
+  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" revision="6b6e89383fd30d5acd0da7717bf75b9a78349a6d" /> <!-- c -->
+  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" revision="76ec758e8d232dac75c69c70d691f44928593e2e" /> <!-- c -->
+  <project path="packages/apps/Protips" name="platform/packages/apps/Protips" revision="e3d1a6393efe7ba4e7dadb3fb91eff4f39e64ff0" /> <!-- c -->
+  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" revision="86bf6d8ac38de74b1bead64ac26fe5130dfffbf5" /> <!-- c -->
+  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" revision="716fceb089c99d4df049696b2be9b2160ff135c0" /> <!-- c -->
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="71bf428a3ade6d16dcfda728b83bb6de56729652" /> <!-- c -->
+  <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" /> <!-- c -->
+  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="a3d2135a22f60d6ba9157e75b55c3ef5e27a28c5" /> <!-- c -->
+  <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" revision="10f05a57805c5409f990959dcad25c67a82ec16d" /> <!-- c -->
+  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" revision="62db451fb742f17669300b9915b9f446f43361ce" /> <!-- c -->
+  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="64123ceffe22b7ea95557730cc9a244f52b06bed" /> <!-- c -->
+  <project path="packages/apps/Tag" name="platform/packages/apps/Tag" revision="116871653662979554a7326991ba4fd599ac44ff" /> <!-- c -->
   <!-- UnifiedEmail is a thing only introduced to the manifest as part of 4.4. However, it was used internally (since early 4.2) up to that point only for the "NEW" Email app, which is included here before being replaced with the ICS MR1 one again on 3 May 2012. --> 
-  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" revision="aeb5a0eadd799d42f131aebe48ddc2b26a16a322" />
+  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" revision="aeb5a0eadd799d42f131aebe48ddc2b26a16a322" /> <!-- c -->
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" revision="e54c181381964be95394bed5871d853ce322beb7" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="c6605242cfbda7a1e3d0009de2f0951039c8ddae" />
   <project path="packages/experimental" name="platform/packages/experimental" revision="944fd31884c646d0d9c14f8f063d11a490e58a1a" />
